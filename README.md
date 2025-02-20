@@ -59,3 +59,28 @@ with open('azure-ia-lab/readme.md', 'w', encoding='utf-8') as readme_file:
 ```
 create_project_structure()
 ```
+
+
+## 👨‍💻 **Como executar o Python:**
+1. Salve o código  `analyze_sentences.py` no diretório raiz do projeto.
+2. Insira sua **API_KEY** e **ENDPOINT** no código.
+3. Execute:
+   ```bash
+   python analyze_sentences.py
+   ```
+4. Veja a saída com os sentimentos e pontuações de confiança. ✅
+
+---
+
+## 💡 **Exemplo de Saída:**
+```
+Sentença: O serviço ao cliente foi excelente e rápido.
+Sentimento: Positivo 📝
+Confiança: Positiva=0.98, Negativa=0.01, Neutra=0.01
+
+Sentença: Não gostei da experiência com o produto.
+Sentimento: Negativo 📝
+Confiança: Positiva=0.05, Negativa=0.92, Neutra=0.03
+```
+
+
